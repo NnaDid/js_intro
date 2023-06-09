@@ -165,7 +165,7 @@ let shiftedItem = myArr.shift();
 console.log( removedItem, shiftedItem );
 
 // Uisng the slice and splice
-let firstcopy = myArr.slice(3,9);
+let firstcopy  = myArr.slice(3,9);
 let firstcopy2 = myArr.slice(3,-3);
 let firstcopy3 = myArr.slice(-3);
 
@@ -213,6 +213,8 @@ console.log(seelingPriceList);
 console.log(seelingPriceList.sort((a,b) => a - b) );
 // console.log(seelingPriceList.sort((a,b) => b - a) );
 
+
+// Solution to
 
 
 
